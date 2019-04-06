@@ -1,0 +1,24 @@
+{
+    "name": "2018legolas2018/drogueria_super",
+    "description": "drugStore",
+    "type": "project",
+    "require": {
+        "twbs/bootstrap": "^4.3",
+        "components/jquery": "^3.3",
+        "foxy/foxy" : "^1.0.0"
+    },
+    "authors": [
+        {
+            "name": "Juan Borda",
+            "email": "jeborda3@misena.edu.co"
+        }
+    ],
+    "config" : {
+      "foxy" : {
+        "enable" : true
+      }
+    },
+    "extra" : {
+      "foxy" : true
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "drogueria_super",
+    "version": "1.0.0",
+    "license": "",
+    "description": "ejemplo de uso librerias",
+    "dependencies": {
+        "popper.js": "latest"
+    }
+}

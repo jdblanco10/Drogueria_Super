@@ -1,0 +1,1331 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="11.91" multi-file="no" uid="simp1887f6544aad47599d4896ce97d9a225">
+  <meta>
+    <name>Diagrama_Clases_DrugPlus</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="UmlClass" />
+        <value>9</value>
+      </counter>
+      <counter>
+        <item-type stereotype="table" type-id="class" type="UmlClass" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="class" type="UmlClass" />
+        <value>11</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="UniversalConnector" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="" type="AbstractElementGroup" />
+        <value>208</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="UmlAssociation" />
+        <value>12</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>2</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.AttributeField</type>
+        <value>114</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>121</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-d7e5230c3d8640dfb763e567005561f9" name="" task-id-sequence="0">
+    <working-schedule uid="ws-9bd405d3ada84cb3abdd1729a5fac4c5" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="P02f92261d7f34db48961ca8df6adf2ba">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-2fb5f69ad42c449ba72b787986b47f44" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-40ab782110334ca6b71dd9b15a088b3d" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <items />
+  <models>
+    <model id="pd6276ab0f1774b63b012d33da6105be8_785475481" name="Model1" namespace="" order-index="1" expanded="true">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>02/06/2019 12:31:43</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p8718fea0bc084819ab04cd41688fbbc2_141067899" name="Class_DrugPlus" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="-195,-11" zoom="0.4571428">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>02/06/2019 12:31:43</creation-date>
+          <change-date>02/07/2019 09:54:48</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="96909684e3ff429192e89221c5b390f8" cid="C001" type="class" name="Cliente" style-class="" visibility="package" change-tracking-state="added" creator="P02f92261d7f34db48961ca8df6adf2ba" creation-date="02/06/2019 12:33:16">
+            <attributes>
+              <attribute id="a0d0633b61aca4ee49f83a186b2d39b67723" cid="ELEM001" name="Id_Cliente" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="private" is-id="true">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-93e7229c-1df1-4185-b580-3257f7c0c5ab" />
+                </source-codes>
+              </attribute>
+              <attribute id="a3eadc04ad47a4a1ca12d6a30cc3afbf7426" cid="ELEM002" name="TipoDocumento" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-e258a8e1-e8df-4b72-9e57-ebdee88b0b7f" />
+                </source-codes>
+              </attribute>
+              <attribute id="aa2b048e168094a5aa9adbd167f8dbeb2959" cid="ELEM003" name="Documento" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-cb4b7f7e-f20c-4916-abe2-83b6a91b9ed1" />
+                </source-codes>
+              </attribute>
+              <attribute id="a4357ab7921ea4f6eb302dafdb7563dae439" cid="ELEM004" name="Nombre" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-178371f7-1303-4951-90ba-0120e9cf9ea6" />
+                </source-codes>
+              </attribute>
+              <attribute id="ab69a7a4ec5b44249a44e53104c68201c519" cid="ELEM005" name="Apellido" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-c0c8e12f-2745-4c83-ac9c-7c116e231be9" />
+                </source-codes>
+              </attribute>
+              <attribute id="a779358bd79aa4195accd11dcf809c93b523" cid="ELEM006" name="Telefono" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-45f39eb8-f558-46db-ad21-4da8e1ad1f6c" />
+                </source-codes>
+              </attribute>
+              <attribute id="af585ca6a64384dae8cc61e1eabc5df38878" cid="ELEM007" name="Direccion" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-2c38966b-c70b-4584-9777-9fd3e522ef19" />
+                </source-codes>
+              </attribute>
+              <attribute id="a602ef79bc06a458eaab0bcf62baa200484" cid="ELEM008" name="Email" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-802b7216-65ca-47fd-882a-22c5e8c28465" />
+                </source-codes>
+              </attribute>
+              <attribute id="ac1cb9837a40941f4951e359a2d7d675f319" cid="ELEM009" name="Estado" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-98433663-5468-4648-9c9d-f243dc832f28" />
+                </source-codes>
+              </attribute>
+              <attribute id="a137199a250554470811c1745e20bcfd4666" cid="ELEM010" name="Usuario" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-ba62db89-8f09-41bd-9347-4f8abc1348c7" />
+                </source-codes>
+              </attribute>
+              <attribute id="a1c25b362d5674c9eb6ffc1704026da9e269" cid="ELEM011" name="Contraseña" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-28ff6ca6-3853-4667-a1ef-7fd18b7def9a" />
+                </source-codes>
+              </attribute>
+              <attribute id="afb130d5ef4a543af8f8f5c16f0878eef996" cid="ELEM012" name="FechaNacimiento" creation-date="01/01/0001 00:00:00" type="DateTime" type-id="Uml.DateTime" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-d3a086fa-e908-4ef3-a41b-6020a8b6a79e" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o3bb2a70e2dd040b0a085047432dcbcee177" cid="ELEM013" name="setAtributes" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pc1ea8d44cc2445f59e96658f31edbc6a" name="Atributes" type="" type-id="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o350fbf328f2c4ca8b8162c3d432a746b120" cid="ELEM014" name="getAtributes" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o879980ff50e94dacb62b402a7e7cc657830" cid="ELEM015" name="Nuevo" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p276bb6a3c75a437aba71591d83d95c8b" name="TipoDocumento" type="String" type-id="Uml.String" />
+                  <parameter id="p6d2089a2955a4fbeb4c9229906b6cec7" name="Documento" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="pc5cf43c3d5e04382b927ed9f2928d862" name="Nombre" type="String" type-id="Uml.String" />
+                  <parameter id="p40741ec1709a4e6cad2c964d17a09d50" name="Apellido" type="String" type-id="Uml.String" />
+                  <parameter id="pee73f7203b8b402293a495025b222ef5" name="Telefono" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p3945e6b81264432a88ebdf7ed44e8987" name="Direccion" type="String" type-id="Uml.String" />
+                  <parameter id="pf22e8c3eb01449ef8a84ca56c8dbb852" name="Email" type="String" type-id="Uml.String" />
+                  <parameter id="p15609970c210472fab44b8e0446e1d4e" name="Estado" type="String" type-id="Uml.String" />
+                  <parameter id="p3d7b6e07571e41bb8b09d7fc887a93cf" name="Usuario" type="String" type-id="Uml.String" />
+                  <parameter id="p068c9321a1ab487dbac9af6febf494dc" name="Contraseña" type="String" type-id="Uml.String" />
+                  <parameter id="pa44276536381464d91f63c275e09bea2" name="FechaNacimiento" type="DateTime" type-id="Uml.DateTime" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o0878c25152484bfaa6639ceaebf3523d312" cid="ELEM016" name="Listar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pbfafeb102edf4f75af7fef0f8c02a0c7" name="TipoDocumento" type="String" type-id="Uml.String" />
+                  <parameter id="p53c06ba401d74b02814406e1a5f62e5a" name="Documento" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="paf5d149984b945a0a31f5aed6d78de20" name="Nombre" type="String" type-id="Uml.String" />
+                  <parameter id="pea315297924e4b849a8f797658dd6ba1" name="Apellido" type="String" type-id="Uml.String" />
+                  <parameter id="p5cedd128807f4697b68da1172b7457f1" name="Telefono" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="pbc8c1221898d4f6f83f75cbe2274b74e" name="Direccion" type="String" type-id="Uml.String" />
+                  <parameter id="p38db5bf0ad3044d4a10dbb362246fc12" name="Email" type="String" type-id="Uml.String" />
+                  <parameter id="p3f99ce25be094bd7929c0ea49b604773" name="Estado" type="String" type-id="Uml.String" />
+                  <parameter id="p79d1dd9b890846a6bc76ad231b13c560" name="Usuario" type="String" type-id="Uml.String" />
+                  <parameter id="pc84be425f11b4fa7b984ad11137bea8c" name="Contraseña" type="String" type-id="Uml.String" />
+                  <parameter id="p12d0fd64d8ff422182e4919f32a5df38" name="FechaNacimiento" type="DateTime" type-id="Uml.DateTime" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oe43151ba1f7c4b0cb9fbf4a2d78a81b6346" cid="ELEM017" name="Editar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p4f4c83339ca8495aa1d882e4669f7d54" name="TipoDocumento" type="String" type-id="Uml.String" />
+                  <parameter id="pb07ca92cd487440fb0b10686cc33af78" name="Documento" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="pf395833f07b741e8bbed82ac714778cc" name="Nombre" type="String" type-id="Uml.String" />
+                  <parameter id="p7dcaf1858059442fb153a721baf38d80" name="Apellido" type="String" type-id="Uml.String" />
+                  <parameter id="p48af8fe65be943ce95fe57cd7787976e" name="Telefono" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="pc66558d938ac48b2bb16556a74befccf" name="Direccion" type="String" type-id="Uml.String" />
+                  <parameter id="pd52b1f1793234f2eabfc86816f8c8d63" name="Email" type="String" type-id="Uml.String" />
+                  <parameter id="pce4a251cd60c4788934280f4d8ec2933" name="Estado" type="String" type-id="Uml.String" />
+                  <parameter id="pd95015cf5a174cccab672524f05433ec" name="Usuario" type="String" type-id="Uml.String" />
+                  <parameter id="p2cd1b31cfe1149ce83dfedf7872f902c" name="Contraseña" type="String" type-id="Uml.String" />
+                  <parameter id="p5d77a0b640e945e39e36abee25c570a9" name="FechaNacimiento" type="DateTime" type-id="Uml.DateTime" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="ode8b4851106b40a4a1766087ab13dc4e385" cid="ELEM018" name="Eliminar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pc1f91fcd3f6f40289f54cdaebfcec104" name="TipoDocumento" type="String" type-id="Uml.String" />
+                  <parameter id="pa155efa8fbc743bab91bafd86db8b023" name="Documento" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p70ca7a59558c42c9b8c33a4b43089732" name="Nombre" type="String" type-id="Uml.String" />
+                  <parameter id="pde88bf925cd240c492e3a0d9c74349d2" name="Apellido" type="String" type-id="Uml.String" />
+                  <parameter id="pe99dd22f9f6541c08617fed3c1840828" name="Telefono" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p93d65f9be59c40abbf2fd0d1720841a9" name="Direccion" type="String" type-id="Uml.String" />
+                  <parameter id="pbcb05156239e431a97e4c7c1844f12b3" name="Email" type="String" type-id="Uml.String" />
+                  <parameter id="p89cd109302f04f4d94ec9b2095317fd6" name="Estado" type="String" type-id="Uml.String" />
+                  <parameter id="p9faa4e92fbbb43d5acac72fc86f155a1" name="Usuario" type="String" type-id="Uml.String" />
+                  <parameter id="pe2d581855c4b47ed877184db57fa1826" name="Contraseña" type="String" type-id="Uml.String" />
+                  <parameter id="pb4aa002901e4476da9d8b10cd3584c7d" name="FechaNacimiento" type="DateTime" type-id="Uml.DateTime" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o7b5a20b5d90749c1bddc8f7fbf61514c574" cid="ELEM019" name="Buscar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p0a227da8ba9d426293f218adbf632ba3" name="TipoDocumento" type="String" type-id="Uml.String" />
+                  <parameter id="pa7cc7346ac9b47948b772ad95dcb0077" name="Documento" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p55796491e7954321b123f944ed3acccd" name="Nombre" type="String" type-id="Uml.String" />
+                  <parameter id="p8a78c36cce164dda94270abbe4645924" name="Apellido" type="String" type-id="Uml.String" />
+                  <parameter id="pd4e3302b92974065a2f8e4f9800e011b" name="Telefono" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="pcc2d96dc3b3746cc97a2348dd0bd7bb0" name="Direccion" type="String" type-id="Uml.String" />
+                  <parameter id="p799ae3c1b9c140eea8ff1806cad035ff" name="Email" type="String" type-id="Uml.String" />
+                  <parameter id="p069f5aa32f2e42d2ad835edca9d248b1" name="Estado" type="String" type-id="Uml.String" />
+                  <parameter id="p26552711ea254976a21f85824cd6cabd" name="Usuario" type="String" type-id="Uml.String" />
+                  <parameter id="pf5dca290467a492b839f10daa7d6f86f" name="Contraseña" type="String" type-id="Uml.String" />
+                  <parameter id="peb4a27f3cd1b46fc96af3f3ca5f7ac5d" name="FechaNacimiento" type="DateTime" type-id="Uml.DateTime" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="af55e3c8e8114f48a574a4c213741353" cid="C002" type="class" name="Administrador" style-class="" visibility="package" change-tracking-state="added" creator="P02f92261d7f34db48961ca8df6adf2ba" creation-date="02/06/2019 13:17:19">
+            <attributes>
+              <attribute id="a004a261c56ad4f50aacb7191825af8c8246" cid="ELEM020" name="Id_Cliente" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="private" is-id="true">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-84a96eb4-a551-41b5-bc56-d988b940fd4c" />
+                </source-codes>
+              </attribute>
+              <attribute id="af3234dd4284f4733a4f3d0bcc30d75a7635" cid="ELEM021" name="TipoDocumento" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-1763984a-b042-4cb0-9a79-feca14261103" />
+                </source-codes>
+              </attribute>
+              <attribute id="afdf54fa5eacb4ee99bb33f0555ee7509386" cid="ELEM022" name="Documento" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-c7db6507-6683-4fd3-89e6-43ceadc6904c" />
+                </source-codes>
+              </attribute>
+              <attribute id="a711aebf1d8144951896bbaa9bf508120550" cid="ELEM023" name="Nombre" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-5ba52745-a814-4bcd-b681-287d6bb1a326" />
+                </source-codes>
+              </attribute>
+              <attribute id="a197ccacec86b4258acd0744ff9690a84614" cid="ELEM024" name="Apellido" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-1b738a8d-e597-4c60-9976-31f080cd8058" />
+                </source-codes>
+              </attribute>
+              <attribute id="a8ad11f59a1e1450da0f10cd9776dbc35559" cid="ELEM025" name="Telefono" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-6e47c8b6-318b-460e-aefc-2bf7a615ac22" />
+                </source-codes>
+              </attribute>
+              <attribute id="ae9f97256fb664cb79d55ec295ef75d2e436" cid="ELEM026" name="Direccion" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-0d7d4e67-36e9-484b-8bd3-5b10d3a76a53" />
+                </source-codes>
+              </attribute>
+              <attribute id="a05d7a4e679b24a0d87cb2d12094d0049410" cid="ELEM027" name="Email" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-7dc21aa7-761a-4386-abb7-4562bc01de9d" />
+                </source-codes>
+              </attribute>
+              <attribute id="ab301ab0a65ba4a0cb7e9324aff5c204b498" cid="ELEM028" name="Estado" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-6f99abdb-1fd0-4044-8759-cac0d0882339" />
+                </source-codes>
+              </attribute>
+              <attribute id="a6b1d9a14ee5a4b6296f4b402067904a7896" cid="ELEM029" name="Usuario" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-5731b834-0760-4894-800d-42c580dbf0ee" />
+                </source-codes>
+              </attribute>
+              <attribute id="a04a810ba6f4b40538741d0da6ed2010d948" cid="ELEM030" name="Contraseña" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-197192df-5374-4ffd-9bbc-e7da0611a86e" />
+                </source-codes>
+              </attribute>
+              <attribute id="af6a5d9ec76e74da2abcaaf11fa2abeb8280" cid="ELEM031" name="FechaNacimiento" creation-date="01/01/0001 00:00:00" type="DateTime" type-id="Uml.DateTime" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-da530904-d99a-4d94-a9a3-d771b10d6c4b" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o917f202fb6ef477abefbc6d4099f1b16532" cid="ELEM032" name="setAtributes" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p4d75dac6e5eb4c678d17745eef1b86f5" name="Atributes" type="" type-id="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o3d98a8a05a894639b1634d35e5fa503952" cid="ELEM033" name="getAtributes" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="ofdf81b68c0a8450ab403dc369818c713227" cid="ELEM034" name="Nuevo" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pd40d61f3b88044b99755f66a09ff65ca" name="TipoDocumento" type="String" type-id="Uml.String" />
+                  <parameter id="pb70b7c9e1f9f491785e07144b9d8ea10" name="Documento" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p2c9bfe78a9ed460d97711f1ac56df82a" name="Nombre" type="String" type-id="Uml.String" />
+                  <parameter id="p17f3f72a862e475fab736697661ed173" name="Apellido" type="String" type-id="Uml.String" />
+                  <parameter id="p80617fbba8d34fe99fa2928a7c7b819e" name="Telefono" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p4a460d79ea494f268620d33f342430fc" name="Direccion" type="String" type-id="Uml.String" />
+                  <parameter id="pf18a81a287f441eaa77ef5174314c95f" name="Email" type="String" type-id="Uml.String" />
+                  <parameter id="pf0fa3f34a6354f4d8cc2bc6a283a0b42" name="Estado" type="String" type-id="Uml.String" />
+                  <parameter id="pe10f5c46f8744a7987ed0a427b335278" name="Usuario" type="String" type-id="Uml.String" />
+                  <parameter id="p918d226ff9d644eb97452f5106d8eb50" name="Contraseña" type="String" type-id="Uml.String" />
+                  <parameter id="pd8932e4980fc4a49a30dbc2753e50dc8" name="FechaNacimiento" type="DateTime" type-id="Uml.DateTime" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o28c348bf30ca44b9bdc6442f23b44ae576" cid="ELEM035" name="Listar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p1117a10f1a6c4d0aa8aa864af97e844d" name="TipoDocumento" type="String" type-id="Uml.String" />
+                  <parameter id="p2469ac4d7f1d404a9c1952514f6ac651" name="Documento" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p0c3989ef5708420cb6559b7926efa05e" name="Nombre" type="String" type-id="Uml.String" />
+                  <parameter id="p3d2ce54679dc430e9daff81cd140361c" name="Apellido" type="String" type-id="Uml.String" />
+                  <parameter id="pb0108b5c81dc4d0b8c145c443e99f8e8" name="Telefono" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p3d13ce9077e34734b972b999fa39de96" name="Direccion" type="String" type-id="Uml.String" />
+                  <parameter id="p3e31f93ce31b465a83446bbcab002e54" name="Email" type="String" type-id="Uml.String" />
+                  <parameter id="pd4f388f5b4af4ac1b20cff0851d23ac6" name="Estado" type="String" type-id="Uml.String" />
+                  <parameter id="pc22a476e7a694bfba203a9b17b80b32b" name="Usuario" type="String" type-id="Uml.String" />
+                  <parameter id="pa4c784300159457a92e01c0034bd80b0" name="Contraseña" type="String" type-id="Uml.String" />
+                  <parameter id="p55d14534d3554420bf2bda5b94508bda" name="FechaNacimiento" type="DateTime" type-id="Uml.DateTime" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o2140239edb5142d2a32cb4b726aae535889" cid="ELEM036" name="Editar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pc596e40a323b48d0879aba20e8b1371c" name="TipoDocumento" type="String" type-id="Uml.String" />
+                  <parameter id="pe946b258482d4d02a389b5c706cbc6e4" name="Documento" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="pbeaed3e17cf84eda9bfd2d2839bea454" name="Nombre" type="String" type-id="Uml.String" />
+                  <parameter id="pf111d4a50e4f41c28a902ca60ae5a51d" name="Apellido" type="String" type-id="Uml.String" />
+                  <parameter id="p43c4b5ae57ee424d83c7e563e15fa92f" name="Telefono" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p3e08d35de9cc4e8f99ef7e50d24dcf1b" name="Direccion" type="String" type-id="Uml.String" />
+                  <parameter id="pe61d130176bc47c58a6fec1f54e90e95" name="Email" type="String" type-id="Uml.String" />
+                  <parameter id="pae80933fb59d431a83d66284ca040577" name="Estado" type="String" type-id="Uml.String" />
+                  <parameter id="pf9fabc5e6c0f406a8c2e6d2b99c8b961" name="Usuario" type="String" type-id="Uml.String" />
+                  <parameter id="p2b3e73b23dd64cc79b27fa02fde5f0d9" name="Contraseña" type="String" type-id="Uml.String" />
+                  <parameter id="p2686afc2d0cd4561a502677bf0b9c03e" name="FechaNacimiento" type="DateTime" type-id="Uml.DateTime" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o9f55037ee8c14e0896ac3fd30f34179783" cid="ELEM037" name="Eliminar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p2ddac2121c2d4f3686ac9c5fb3efbca8" name="TipoDocumento" type="String" type-id="Uml.String" />
+                  <parameter id="p38e078e9f1b3405cbe3350f52215de02" name="Documento" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p01e54c35a3b24a7da58c9aa5aa91b4da" name="Nombre" type="String" type-id="Uml.String" />
+                  <parameter id="p571e03ab86834ad39e4e4d275a501e28" name="Apellido" type="String" type-id="Uml.String" />
+                  <parameter id="p03112fb3f13b4b7889ec5e5919cedadf" name="Telefono" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p415066d9a4c24baeb1b26c53c7c7fbbd" name="Direccion" type="String" type-id="Uml.String" />
+                  <parameter id="p6d423eca3f6340128fe3ba44043799a8" name="Email" type="String" type-id="Uml.String" />
+                  <parameter id="p703942ff8110405dbc62fcb15514759a" name="Estado" type="String" type-id="Uml.String" />
+                  <parameter id="p1404e563c24b4bffb5f877786e8bde44" name="Usuario" type="String" type-id="Uml.String" />
+                  <parameter id="p349b2740bcce4a73b8a582bb927bb7ac" name="Contraseña" type="String" type-id="Uml.String" />
+                  <parameter id="p9341d92d3ac94ff199f538ecd49563a3" name="FechaNacimiento" type="DateTime" type-id="Uml.DateTime" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oca2b208b9cdf42e181138f93bf7c8ca5452" cid="ELEM038" name="Buscar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p30cc4c7f391841d48e23a4a6429c7f8e" name="TipoDocumento" type="String" type-id="Uml.String" />
+                  <parameter id="pcd8e10293fb0403f83fc94a8499d9379" name="Documento" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="pfc1423adc814474ebd9247b4071578b6" name="Nombre" type="String" type-id="Uml.String" />
+                  <parameter id="pb09b5ae34af14f62986bf47a9dc5a063" name="Apellido" type="String" type-id="Uml.String" />
+                  <parameter id="p44dadaa2121343a097fd76a689efc2f5" name="Telefono" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p584911ba5fa44cc6af02d885a8de2746" name="Direccion" type="String" type-id="Uml.String" />
+                  <parameter id="pc661dc762081416e9ef5f2231b827b13" name="Email" type="String" type-id="Uml.String" />
+                  <parameter id="peea9c5f46b184e98b719bff2b4aab30d" name="Estado" type="String" type-id="Uml.String" />
+                  <parameter id="pe20937ee1b6544c998baa282710c2741" name="Usuario" type="String" type-id="Uml.String" />
+                  <parameter id="p75032802e0d742c6889a162bbe191bf4" name="Contraseña" type="String" type-id="Uml.String" />
+                  <parameter id="pd4aa760363554d6ca16d982935b64fe3" name="FechaNacimiento" type="DateTime" type-id="Uml.DateTime" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="b58837d69443467b9c93ea4aea0b4640" cid="C003" type="class" name="Farmaceuta" style-class="" visibility="package" change-tracking-state="added" creator="P02f92261d7f34db48961ca8df6adf2ba" creation-date="02/06/2019 13:32:34">
+            <attributes>
+              <attribute id="a5a46bd00818540a19ed0eb5d285bad3b521" cid="ELEM039" name="Id_Farmacuetas" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="private" is-id="true">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-25e2dcfe-ba2e-476e-8e84-c20532073874" />
+                </source-codes>
+              </attribute>
+              <attribute id="a32cc7adae05e4b6981a7f6b88dd163a8484" cid="ELEM040" name="TipoDocumento" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-3dac0c73-b8e7-4eb1-b5d6-50c36d628ded" />
+                </source-codes>
+              </attribute>
+              <attribute id="ab710f5a8cb6c43f0b7236cafe6ad3ebe492" cid="ELEM041" name="Documento" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-449f8bdc-6c26-48ff-b858-7f1ea464de2a" />
+                </source-codes>
+              </attribute>
+              <attribute id="a62afe26030ef40dcaae93c18d3eede7b55" cid="ELEM042" name="Nombre" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-641934bd-4d76-4526-8685-35bb6e8ac177" />
+                </source-codes>
+              </attribute>
+              <attribute id="a47016510a0a3411495df39b2f2574025347" cid="ELEM043" name="Apellido" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-82c552ea-45dc-4f9e-8fde-97bf4adf2d80" />
+                </source-codes>
+              </attribute>
+              <attribute id="ae9b950d18151462297aa3a266191ba74781" cid="ELEM044" name="Telefono" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-720c61ba-a666-4adf-b4a2-75644cd69658" />
+                </source-codes>
+              </attribute>
+              <attribute id="a21e63e1f9ad64cc28e73e14a438b6353582" cid="ELEM045" name="Direccion" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-b2144a9d-4d6d-436d-8de5-bd460f80c5ee" />
+                </source-codes>
+              </attribute>
+              <attribute id="a8ce46c3b3d5f491488f74acb766e9d84137" cid="ELEM046" name="Email" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-4266e5e7-afa5-490a-bf79-d3c04314971b" />
+                </source-codes>
+              </attribute>
+              <attribute id="a844ecf5105294ff388b65d732f8b6a2d160" cid="ELEM047" name="Estado" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-afb71fda-a197-42de-a66f-11e88bd285aa" />
+                </source-codes>
+              </attribute>
+              <attribute id="ab394e91a49c849c5b9f33121dcdb987c526" cid="ELEM048" name="Usuario" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-cfddc7d7-3447-42da-8d59-bfed6adbe3c5" />
+                </source-codes>
+              </attribute>
+              <attribute id="a62de27b34b9047bcad6932d40fcd6c0a309" cid="ELEM049" name="Contraseña" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-cba79830-3724-453e-8924-010160e08cca" />
+                </source-codes>
+              </attribute>
+              <attribute id="abbafed34fc5e43a3be1aff14fd421e52646" cid="ELEM050" name="FechaNacimiento" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-1b99786a-d287-48c3-b594-1ea34045107d" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o722bf4759c764c3c8c6c7509e19efa62560" cid="ELEM051" name="setAtributes" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p158a5feb82404c0580bccf5aa91d8343" name="Atributes" type="" type-id="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="of6df99a2a97f42308c22fdb79e4a3175897" cid="ELEM052" name="getAtributes" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oeb0ecdcf13fe4bd6871af22ce706123c182" cid="ELEM053" name="Nuevo" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p886a9cf5819b42fcb6e5c598fc3dfe96" name="TipoDocumento" type="String" type-id="Uml.String" />
+                  <parameter id="p984250d4bc4340b6a66aeccb55c959dc" name="Documento" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p5d35bbf294204a83afd2a5e0170d56e8" name="Nombre" type="String" type-id="Uml.String" />
+                  <parameter id="p66c18e9e2ca84d109b8d853fffde1ee1" name="Apellido" type="String" type-id="Uml.String" />
+                  <parameter id="p6727077296df40fabe35eb9d4d57627b" name="Telefono" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="pa9c612504e954efe9f31c1ca01ab6356" name="Direccion" type="String" type-id="Uml.String" />
+                  <parameter id="pfd26d79eb01644948ed6aeea7a94dcef" name="Email" type="String" type-id="Uml.String" />
+                  <parameter id="p16b2e3bde78b4c18bdb64d0e73fdfe52" name="Estado" type="String" type-id="Uml.String" />
+                  <parameter id="p5cf74161c42d4c3d8aeef1575343cb2c" name="Usuario" type="String" type-id="Uml.String" />
+                  <parameter id="pc07a86ce73f74e7091e7b0c637fa3b3d" name="Contraseña" type="String" type-id="Uml.String" />
+                  <parameter id="p2fcb23d8c801415387f4d6dfb67b3cfa" name="FechaNacimiento" type="DateTime" type-id="Uml.DateTime" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oba6d31b457ae48079f039970d054d1b350" cid="ELEM054" name="Listar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pb117cec76e594dda835113e500c220de" name="TipoDocumento" type="String" type-id="Uml.String" />
+                  <parameter id="p641926b294e949b2bb69b71fe077b295" name="Documento" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="pb66af21c8ef3439d8697d32872ce09f2" name="Nombre" type="String" type-id="Uml.String" />
+                  <parameter id="p4714736579fd4273842cd52ce2de5152" name="Apellido" type="String" type-id="Uml.String" />
+                  <parameter id="p12ebcfbd53254c8581221c91a4b8ead3" name="Telefono" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p0cc78c636afe40c89bbd76c290dce0c7" name="Direccion" type="String" type-id="Uml.String" />
+                  <parameter id="pc36ff12c15bd43f6bb454a5ebbc54f4d" name="Email" type="String" type-id="Uml.String" />
+                  <parameter id="p7cb655171d1745ee9f67aa7b81a32101" name="Estado" type="String" type-id="Uml.String" />
+                  <parameter id="pa013206e33994e1084f30c0bce5f51bb" name="Usuario" type="String" type-id="Uml.String" />
+                  <parameter id="pdd48e9c3525348e187dbcd25e2e5ca17" name="Contraseña" type="String" type-id="Uml.String" />
+                  <parameter id="pcbae2ab2021145299bf543620b9382b7" name="FechaNacimiento" type="DateTime" type-id="Uml.DateTime" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o55a6105d176a4d23b71fbc506f7245ab363" cid="ELEM055" name="Edita" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pea780569950847a2bcfbce5e2c272f2c" name="TipoDocumento" type="String" type-id="Uml.String" />
+                  <parameter id="p0be7c05101474df1adf59728820671df" name="Documento" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p2d5dc3bffe524c5fafb09b06e9af910f" name="Nombre" type="String" type-id="Uml.String" />
+                  <parameter id="pb3b99ebfbbf548e5a9f85f58e030a9be" name="Apellido" type="String" type-id="Uml.String" />
+                  <parameter id="p957c43de0b934c7988396a60919fc710" name="Telefono" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p70d7e3a2a42c45969911be6d04da335e" name="Direccion" type="String" type-id="Uml.String" />
+                  <parameter id="pc7e2e50fa41842099c62a3de1fdac1ae" name="Email" type="String" type-id="Uml.String" />
+                  <parameter id="p94cdb6d59cbb4301a0f1e51df4d41778" name="Estado" type="String" type-id="Uml.String" />
+                  <parameter id="pb2d37e0aaaf44fca8732eafc05934237" name="Usuario" type="String" type-id="Uml.String" />
+                  <parameter id="p6958f30df13141d3999bdaa6400c22b5" name="Contraseña" type="String" type-id="Uml.String" />
+                  <parameter id="p44db2f49db33405a8acf5282f6cc9cad" name="FechaNacimiento" type="DateTime" type-id="Uml.DateTime" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o133a024d40f248e0a32393fa70c11931647" cid="ELEM056" name="Eliminar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p04585dec40fc422fbfe3229652f9c8c3" name="TipoDocumento" type="String" type-id="Uml.String" />
+                  <parameter id="pfabca5b76a354a3f8a3609f9c71932d7" name="Documento" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p5373b1c3746541dbb7f2d1a4218ec59b" name="Nombre" type="String" type-id="Uml.String" />
+                  <parameter id="p83d6fbabbb0b45f3870802b1eccfeacb" name="Apellido" type="String" type-id="Uml.String" />
+                  <parameter id="p58464942f9a34955843a4ebd99956ad5" name="Telefono" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p4dbcb1f263fd439e9657cbd3fc75b6a2" name="Direccion" type="String" type-id="Uml.String" />
+                  <parameter id="p98f7f18085aa4720b44e0a6988678952" name="Email" type="String" type-id="Uml.String" />
+                  <parameter id="pd20ec9c4255541f5a267cf8a6d5ad389" name="Estado" type="String" type-id="Uml.String" />
+                  <parameter id="p9b3496ac83ea4f1586bc9e70c9497d1e" name="Usuario" type="String" type-id="Uml.String" />
+                  <parameter id="p413a5a5694b94b9984707d56c52a675e" name="Contraseña" type="String" type-id="Uml.String" />
+                  <parameter id="p4aba89cc56664de884d06a84d428da92" name="FechaNacimiento" type="DateTime" type-id="Uml.DateTime" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o634a2282a26d48ebabe8504295d71607329" cid="ELEM057" name="Buscar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p59f56591ced344818beb8d54d3c053a7" name="TipoDocumento" type="String" type-id="Uml.String" />
+                  <parameter id="p3781c066618d4b029ca0d86d016d1acf" name="Documento" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="pa73032fda3e94a0fa2f148b741de489b" name="Nombre" type="String" type-id="Uml.String" />
+                  <parameter id="pfd9b618b9e1e482abbd89963e766b9b4" name="Apellido" type="String" type-id="Uml.String" />
+                  <parameter id="pfdbd27dbd8c048c3b2354d8c6699e1b0" name="Telefono" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p2b07ab067eca42b0a29f8c1881be307a" name="Direccion" type="String" type-id="Uml.String" />
+                  <parameter id="p4ca53be00a454f70b55c5667924bd43b" name="Email" type="String" type-id="Uml.String" />
+                  <parameter id="p77b9eb6168ab472d9624fc448d532b64" name="Estado" type="String" type-id="Uml.String" />
+                  <parameter id="pc09e167a02b54a0c9adb3fbf7cd17687" name="Usuario" type="String" type-id="Uml.String" />
+                  <parameter id="pa4486aa971304f53811f1f688eb6c14f" name="Contraseña" type="String" type-id="Uml.String" />
+                  <parameter id="p8f0466f90e4c4383b7101fc226ccd235" name="FechaNacimiento" type="DateTime" type-id="Uml.DateTime" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="413a62bbfe6d4998b8591a6ff2fbfad5" cid="C005" type="class" name="Proveedores" style-class="" visibility="package" change-tracking-state="added" creator="P02f92261d7f34db48961ca8df6adf2ba" creation-date="02/06/2019 13:46:09">
+            <attributes>
+              <attribute id="adc8f53816c664c03b78bf7e0c4fcab4817" cid="ELEM058" name="Id_Proveedores" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="private" is-id="true">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-5056d14d-87f9-4d4e-8136-82c523f18028" />
+                </source-codes>
+              </attribute>
+              <attribute id="a84cc69541b084ce9b61e54299efdecff411" cid="ELEM059" name="NombreProveedor" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-35d8b8de-759f-4aba-96fd-1776d3a77e13" />
+                </source-codes>
+              </attribute>
+              <attribute id="adb1bdef7641b488781c7280c2331cff2811" cid="ELEM060" name="Telefono" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-3ad96d9c-36bc-4583-8fb2-7711d9a1b334" />
+                </source-codes>
+              </attribute>
+              <attribute id="ae889d7007ec6491bb43eddee8c6c4a01560" cid="ELEM061" name="Direccion" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-b12f496b-331b-4e56-a2af-14f5b39fcb9c" />
+                </source-codes>
+              </attribute>
+              <attribute id="a81ba90cd8fdb4bd0be4eb7d6a216e25e957" cid="ELEM062" name="Nit" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-8ea0e28b-aa05-4ec9-8ab8-5eaa5d3025b1" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o953ee416110d4645b54aca5a2f14c887717" cid="ELEM063" name="Nuevo" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="ped6b13c9c746471eb5bf14ce07f1aec2" name="NombreProveedor" type="String" type-id="Uml.String" />
+                  <parameter id="p006becd1e3124cc8b754a8cedd117c1e" name="Telefono" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="pae4129648bb6487592cd284a764c53ca" name="Direccion" type="String" type-id="Uml.String" />
+                  <parameter id="p97303c743afc4f99acf42c128fcc99f0" name="Nit" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o79c94ed6338f4ca4934a2d290c530913436" cid="ELEM064" name="Listar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p4f85aaa48e944640ac894f065f19fb43" name="NombreProveedor" type="String" type-id="Uml.String" />
+                  <parameter id="p38e1f0fbda504a77b04867771837ac0d" name="Telefono" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="pef999ca5d97c47cd99bf1a55f0b75a2d" name="Direccion" type="String" type-id="Uml.String" />
+                  <parameter id="pb05896e6456e47cd97512ef8bca3fcd8" name="Nit" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="obbae787e612d46beac7d62f2b35bba01868" cid="ELEM065" name="Editar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p4eab9cfacd8341fc889b0caee35bf641" name="NombreProveedor" type="String" type-id="Uml.String" />
+                  <parameter id="p27d8ab4992b04846ab2e6134664a4e68" name="Telefono" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p6037155478534800a73266b12010edcf" name="Direccion" type="String" type-id="Uml.String" />
+                  <parameter id="p99db51b5eb8648e8853b584f206c7ae2" name="Nit" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o59ccd4cad87b48babc64449a08ddb695835" cid="ELEM066" name="Eliminar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p83039a5a761d479dbbe71f3af6a84edb" name="NombreProveedor" type="String" type-id="Uml.String" />
+                  <parameter id="p797d0c09b621481e9e02394858426c78" name="Telefono" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p51922a1d577f488188ddd382ee3ec153" name="Direccion" type="String" type-id="Uml.String" />
+                  <parameter id="pf5fd91df760242f096a9f24fb79a73f0" name="Nit" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o0da7bce9f084498c9865f2c2536ff89f536" cid="ELEM067" name="Buscar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p248a9d9a6a914839b57306907ea4f9f8" name="NombreProveedor" type="String" type-id="Uml.String" />
+                  <parameter id="p3b29a7f997a8454d870f10e595235c26" name="Telefono" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p5b140757700447b0a1402c7615bde1e9" name="Direccion" type="String" type-id="Uml.String" />
+                  <parameter id="p63205cbed348437d8141caf78079cfa5" name="Nit" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o93e12ed5be7f4a67a058afdc597a8b10402" cid="ELEM072" name="setAtributes" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pf0d2963d4a5747d6b6e8abb5808fabfd" name="Atributes" type="" type-id="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o8b2acd093a0e418792d9451d199b4d3b974" cid="ELEM073" name="getAtributes" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="586bbee21cfb4917a36141e0935c876e" cid="C006" type="class" name="Ventas" style-class="" visibility="package" change-tracking-state="added" creator="P02f92261d7f34db48961ca8df6adf2ba" creation-date="02/06/2019 13:55:11">
+            <attributes>
+              <attribute id="a96efc870bd1047688a0426d74cc18bf8618" cid="ELEM068" name="Id_Ventas" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="private" is-id="true">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-77e36eb9-48cb-4ee3-b053-340e266f9a0b" />
+                </source-codes>
+              </attribute>
+              <attribute id="a83388eff5eee483eb8ab5ec7906f7653445" cid="ELEM069" name="FechaVenta" creation-date="01/01/0001 00:00:00" type="DateTime" type-id="Uml.DateTime" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-1c6619e7-0cff-4d7b-9da9-9f832593edc8" />
+                </source-codes>
+              </attribute>
+              <attribute id="ae8819af257b8484c80ba4e2f48ca560c121" cid="ELEM070" name="PrecioVenta" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-bffa9026-4906-4294-8358-8ed2fc5a08ef" />
+                </source-codes>
+              </attribute>
+              <attribute id="ad2bd720016544ee584deea40b3c4d99d655" cid="ELEM071" name="Cantidad" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-b82f2b10-6604-4169-99e7-9f3661937b1a" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="ofa7f242e805347aa8f853b71d492e574531" cid="ELEM074" name="setAtributes" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p063d24e7fb7345c08ac6f0e6967e41c1" name="Atributes" type="" type-id="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oce1044446de647e88056c48ee9a60106132" cid="ELEM075" name="getAtributes" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o205e1e0a27384cc48f303d828a7adc2f954" cid="ELEM076" name="Nuevo" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pef67ec3d8d11491ba8e41553dd005a42" name="FechaVenta" type="DateTime" type-id="Uml.DateTime" />
+                  <parameter id="p23fd188147944d43a4b355fecb37356c" name="PrecioVenta" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p6fd80a86ccf1442e9aee367893a68108" name="Cantidad" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o05bb58bd0b72452b82296ef2bd7dd7b7803" cid="ELEM077" name="Listar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p4fde5001f9a04a5792df32ba6cbbc8cd" name="FechaVenta" type="DateTime" type-id="Uml.DateTime" />
+                  <parameter id="pcccb21810be14035b052c8b1fac35025" name="PrecioVenta" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p3aca7c55127e4379b81868fa8bee6c77" name="Cantidad" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o3f0d0a2cb6b4415da57d827a675dc90d891" cid="ELEM078" name="Editar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="ped00eef508c741f1b55abe9834ae0a9c" name="FechaVenta" type="DateTime" type-id="Uml.DateTime" />
+                  <parameter id="p3507777587884c5493a5fed53aad7eee" name="PrecioVenta" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p1d116b821527458f8d090170ec3a4a54" name="Cantidad" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o9da243817930486cabf42c1666cb6464982" cid="ELEM079" name="Eliminar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pa3d83607f68048b7ab9c465a9302d836" name="FechaVenta" type="DateTime" type-id="Uml.DateTime" />
+                  <parameter id="p0b8b86ef71274a63bf09cf28292be9d5" name="PrecioVenta" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p065780b7d69142bca7f94b5f8637f8b7" name="Cantidad" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="ob9cc40ca94c741149feb47576a78012f831" cid="ELEM080" name="Buscar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p394b3d79524f44039407de3a7643c52a" name="FechaVenta" type="DateTime" type-id="Uml.DateTime" />
+                  <parameter id="p349636584472400c8bde93b44d5180c1" name="PrecioVenta" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p7b0d1a85a276433c92950bdcee379e1a" name="Cantidad" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="02531b30304b4fe898e7417b703c9d33" cid="C007" type="class" name="Producto" style-class="" visibility="package" change-tracking-state="added" creator="P02f92261d7f34db48961ca8df6adf2ba" creation-date="02/06/2019 16:07:59">
+            <attributes>
+              <attribute id="a2f7c1a359a4c4960a6191bc73f38d95b434" cid="ELEM081" name="Id_Producto" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="private" is-id="true">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-45c81457-db0f-4692-acf9-3cc632e1c201" />
+                </source-codes>
+              </attribute>
+              <attribute id="acf420bbbe347469896929b7830ddfde9371" cid="ELEM082" name="NombreProducto" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-26872652-51b6-414f-b0bb-cc3a3bd97ed7" />
+                </source-codes>
+              </attribute>
+              <attribute id="ad66b9326d1124cfbb1a16c35b4426fa3856" cid="ELEM083" name="CantidadProducto" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-96851a60-81ab-48a5-aa23-922c81417acd" />
+                </source-codes>
+              </attribute>
+              <attribute id="a2b232cca65804d529f57b55e7abf63b2704" cid="ELEM084" name="FechaVence" creation-date="01/01/0001 00:00:00" type="DateTime" type-id="Uml.DateTime" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-35cb3e27-43c1-4461-b177-cce572940646" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o758e2193fb204f389ea68da9ad40d99a229" cid="ELEM085" name="getAtributes" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p3d6141c8fcf941a28b9f92ba199327d8" name="Atributes" type="" type-id="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o03501efc1b9d4d20b5fee0fd930fc893486" cid="ELEM086" name="setAtributes" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o25639b70930848b0bbd36cb7d2f0bd84356" cid="ELEM087" name="Nuevo" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p058bc1d0aee64a1d8aa4a01b8f62af39" name="NombreProducto" type="String" type-id="Uml.String" />
+                  <parameter id="p6c0f5cd9f71049379d30da24e1d412b4" name="CantidadProducto" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="pc37d016f0f164b8e9fcdc3162555d6f6" name="FechaVence" type="DateTime" type-id="Uml.DateTime" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o7ac93e20957c48148fab1639c789ed5d14" cid="ELEM088" name="Lista" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p55d87f35a6b04f50bdf2281bdfe0d186" name="NombreProducto" type="String" type-id="Uml.String" />
+                  <parameter id="p8da03927651b40a9a1b1cb0880aef42c" name="CantidadProducto" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p96a556ca898a4680a03a16880a6e211c" name="FechaVence" type="DateTime" type-id="Uml.DateTime" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="odd27b4efa4ab4a438de38b61dcffdf37596" cid="ELEM089" name="Editar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p6ad4b68f24c1498da6491b92866b77cc" name="NombreProducto" type="String" type-id="Uml.String" />
+                  <parameter id="p36ee05a1de2b4a8594b8640e157f95cd" name="CantidadProducto" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="pd2e16b06929b4a68ab2ffc9dac3ed22c" name="FechaVence" type="DateTime" type-id="Uml.DateTime" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="od4f775a8cf2349a498e6906e4c0b913f931" cid="ELEM090" name="Eliminar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p910d62e6766a46a9ab23cdc297dbea53" name="NombreProducto" type="String" type-id="Uml.String" />
+                  <parameter id="p57ba482d9a9947b8be4fef2b55a10bd6" name="CantidadProducto" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p64a32526013e49f8b1339f152998c6f8" name="FechaVence" type="DateTime" type-id="Uml.DateTime" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o57daced2c22c41f98da8de1c8b45f5cf42" cid="ELEM091" name="Buscar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pd1d2c0b6eccc45f4a3157a36a906c26a" name="NombreProducto" type="String" type-id="Uml.String" />
+                  <parameter id="p3b76f709af24412b852a40d6e2a2f701" name="CantidadProducto" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="pf8fd37585a344d22b6347f6491c0ce96" name="FechaVence" type="DateTime" type-id="Uml.DateTime" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="192f37e2f8824dac8673231ec23504c0" cid="C008" type="class" name="CategoriasProducto" style-class="" visibility="package" change-tracking-state="added" creator="P02f92261d7f34db48961ca8df6adf2ba" creation-date="02/06/2019 16:52:58">
+            <attributes>
+              <attribute id="ad1f948eb3e2044aa8661651d87f72935319" cid="ELEM092" name="Id_CategoriasProducto" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="private" is-id="true">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-bc25b88f-49d5-413f-b1f5-f2db910d42cd" />
+                </source-codes>
+              </attribute>
+              <attribute id="a678519a8998847799c5d22f207e06606663" cid="ELEM093" name="TipoProducto" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-fa48bda3-0359-448c-820c-af38f1f8ef47" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o7f71eb7697d848a8ba60fb6f29dc1a08488" cid="ELEM094" name="getAtributes" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pd7bd4b27fe714b2c92a3885f42618dd3" name="Atributes" type="" type-id="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o631316bfa86c4465bdc88d0846d2ee76105" cid="ELEM095" name="setAtributes" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o7dddccb9f53a4e78bbc17c890b6dbc9b924" cid="ELEM096" name="Nuevo" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pa540cd9fc5fa42dea25a57912985e380" name="TipoProducto" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oe8a362797b5a40a3ad0b0e20944a0717157" cid="ELEM097" name="Lista" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p940ae24bacb24a1e814e82b5829fad9f" name="TipoProducto" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o15c657369f624aada998bb3e39a6c96b327" cid="ELEM098" name="Editar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p0e27f9a3685d49caa7d653bdeb24b5c9" name="TipoProducto" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o4737f879c9454a018de0e8ef3b75f91d107" cid="ELEM099" name="Eliminar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p7a65dbb7b5ac40b48c48df5c0aa6cdca" name="TipoProducto" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="ocab1c14508a444ae8d716a7bd3aa7361366" cid="ELEM100" name="Buscar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p7adb7bf81f1047ae926f11f393c76c42" name="TipoProducto" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="049cf255012242d2be1121a30a09310f" cid="C009" type="class" name="Categorias" style-class="" visibility="package" change-tracking-state="added" creator="P02f92261d7f34db48961ca8df6adf2ba" creation-date="02/06/2019 16:57:34">
+            <attributes>
+              <attribute id="a754703f02179481aabab69bc5b33b0e7784" cid="ELEM101" name="Id_Categorias" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="private" is-id="true">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-3ad39ebe-30cd-4328-8639-84cc1b4edb99" />
+                </source-codes>
+              </attribute>
+              <attribute id="a3fc52a93da844a1db068ee2f2362dd70448" cid="ELEM102" name="Descripcion" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-7fb346a6-2850-4414-9a37-ee0f4754853d" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="odb6801017a9c463395ea7d9417bf209a839" cid="ELEM103" name="getAtributes" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p4672e7b4074749488ac448dda5518456" name="Atributes" type="" type-id="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o5bafd0dcd8884253bfea29da55a489ec160" cid="ELEM104" name="setAtributes" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o9106573d864e4acf8ceaea58f119b852241" cid="ELEM105" name="Nuevo" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pd648868b2389420f820a7bf10f70493e" name="Descripcion" type="String" type-id="Uml.String" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o62b07a39ca16412795ec6c2391e3a77b423" cid="ELEM106" name="Listar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p796d2514aa8c4e6fb31ec017f19d396e" name="Descripcion" type="String" type-id="Uml.String" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o7fd7b2fd85694ddcb525d012e8989552441" cid="ELEM107" name="Editar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p339a9ac24a514e3f912a9f4835c21f3f" name="Descripcion" type="String" type-id="Uml.String" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oadf205e2eb774f0e8588dd7b33cc05a6626" cid="ELEM108" name="Eliminar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p2ed5524b76034db0b38b9e254f035467" name="Descripcion" type="String" type-id="Uml.String" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o340f80f881124e07b617e854c3b15dd2657" cid="ELEM109" name="Buscar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p3b56b68d64124cdbb47608a83faf9bb7" name="Descripcion" type="String" type-id="Uml.String" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="2b116e5a7fb34b28a4da55bfa9c558e6" cid="C010" type="class" name="Compras" style-class="" visibility="package" change-tracking-state="added" creator="P02f92261d7f34db48961ca8df6adf2ba" creation-date="02/06/2019 17:08:25">
+            <attributes>
+              <attribute id="a5cd3bb913deb44119144cc7ec68b2edb699" cid="ELEM110" name="Id_Compras" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="private" is-id="true">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-dd3261e8-f5b8-4871-9a96-c95188bf148a" />
+                </source-codes>
+              </attribute>
+              <attribute id="aa0ad5d4102f6433db2aad195a72a14bd441" cid="ELEM111" name="FechaCompras" creation-date="01/01/0001 00:00:00" type="Object" type-id="Uml.Object" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-222f5253-5f1f-4abc-bd6b-7b9f2502e14a" />
+                </source-codes>
+              </attribute>
+              <attribute id="a6d282321c1924f749f4a3ad0d5c2b9b3541" cid="ELEM112" name="PrecioCompra" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-c8db6f0a-8ca6-450b-ac36-db66654ec563" />
+                </source-codes>
+              </attribute>
+              <attribute id="a7cc5195a734144529249db8ba9bec16c938" cid="ELEM113" name="Cantidad" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-9e952496-315c-453d-8db8-c0b964ec609e" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="oab570a86b93b417dbc9f4a0c9136ff01712" cid="ELEM114" name="getAtributes" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pfcfc3a7f508441f4a711df80765df07b" name="Atributes" type="" type-id="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="ob54156a438304429ac86650f0c338d65755" cid="ELEM115" name="setAtributes" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oa5179e4fba1b44fe8742d5b5e017e026443" cid="ELEM116" name="Nuevo" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p93b3d3cb4c2e4461ba10f7ccd9a28d6f" name="FechaCompra" type="DateTime" type-id="Uml.DateTime" />
+                  <parameter id="p943dae81221845779e4ac21b3d048361" name="PrecioCompra" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="pf6a6b826400d42cbb8888bc5777753d8" name="Cantidad" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="ob523acd18e5f4ed7abd8ff421bc3b147966" cid="ELEM117" name="Listar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="paf68ac327d444950a5dbd0ad7c0e8dfc" name="FechaCompra" type="DateTime" type-id="Uml.DateTime" />
+                  <parameter id="p56faff04d8b74ed0a93a2f202629f811" name="PrecioCompra" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="pb77243af90334c538a99296d8868b49b" name="Cantidad" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o197005cd58e74b6785e64612a2f51042926" cid="ELEM118" name="Editar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p635a0dc6c04a4a399d119ceb1d0a32f7" name="FechaCompra" type="DateTime" type-id="Uml.DateTime" />
+                  <parameter id="p28e8fe172b434330b771592eb5e5ace3" name="PrecioCompra" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p8936862391cb43739bb4494d03dedf25" name="Cantidad" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o50b9f051e242411490d7bab744b83f43171" cid="ELEM119" name="Eliminar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pc71e23c12c08454a8b8d53037608f72f" name="FechaCompra" type="DateTime" type-id="Uml.DateTime" />
+                  <parameter id="pf96bf5dad7ed43ee93b55e5a4ab394c9" name="PrecioCompra" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p5032c09594c14ccc9b3bbab6cad6fab7" name="Cantidad" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o2d8699c013574cdf963d2eda24ec7ce3993" cid="ELEM120" name="Buscar" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pdee59cbabddf495bb39a5c3a21e42048" name="FechaCompra" type="DateTime" type-id="Uml.DateTime" />
+                  <parameter id="pb49df4baf424465ebf97db31911f2ee1" name="PrecioCompra" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="pbad23bfe73024fafbce7797506b5dcfa" name="Cantidad" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="d21aaf8e99ed446cb5ce9f18acd464c4" cid="REL003" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="02/07/2019 09:51:39" from="586bbee21cfb4917a36141e0935c876e" to="586bbee21cfb4917a36141e0935c876e">
+            <relation from="586bbee21cfb4917a36141e0935c876e" to="586bbee21cfb4917a36141e0935c876e">
+              <start-role id="umlar-81fed59a-c09b-4935-b164-e55b781475a9" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-727ee9bb-66c6-42ac-8cee-f488446cd3a8" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="768cf111ef654e4fa8646be616762fb2" cid="REL005" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="02/07/2019 09:52:36" from="586bbee21cfb4917a36141e0935c876e" to="586bbee21cfb4917a36141e0935c876e">
+            <relation from="586bbee21cfb4917a36141e0935c876e" to="586bbee21cfb4917a36141e0935c876e">
+              <start-role id="umlar-1fe33bf2-1b70-45d4-807b-ca1bb84d236b" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-dbd23308-a686-4625-8934-44287e1ccf79" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="97d87017177a405aa3a03fabc9d44075" cid="REL006" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="02/07/2019 09:53:13" from="586bbee21cfb4917a36141e0935c876e" to="586bbee21cfb4917a36141e0935c876e">
+            <relation from="586bbee21cfb4917a36141e0935c876e" to="586bbee21cfb4917a36141e0935c876e">
+              <start-role id="umlar-88226e78-b722-4dd2-985b-d82c735475f1" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-749f9542-1b56-4d00-b569-cfa1f959d79b" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="e9eebce5adc9483984c7f3fc67faf06f" cid="REL007" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="02/07/2019 09:53:38" from="02531b30304b4fe898e7417b703c9d33" to="02531b30304b4fe898e7417b703c9d33">
+            <relation from="02531b30304b4fe898e7417b703c9d33" to="02531b30304b4fe898e7417b703c9d33">
+              <start-role id="umlar-c3c2ade4-1aa9-4ca4-941f-2ed7d596c7a4" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-6dfcdb1f-3c4d-457c-bad9-b4b5c2e6b522" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="8b6c1bf0fe2b4147a8b6b8eee330532a" cid="REL008" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="02/07/2019 09:53:54" from="049cf255012242d2be1121a30a09310f" to="049cf255012242d2be1121a30a09310f">
+            <relation from="049cf255012242d2be1121a30a09310f" to="049cf255012242d2be1121a30a09310f">
+              <start-role id="umlar-e65e1763-fbb1-426c-bb60-d3aed5c32f86" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-a7278caf-e983-49bc-93a4-98e4644d5ab7" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="0c925298a4fe41c3867c7f98e4504d10" cid="REL009" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="02/07/2019 09:54:06" from="586bbee21cfb4917a36141e0935c876e" to="586bbee21cfb4917a36141e0935c876e">
+            <relation from="586bbee21cfb4917a36141e0935c876e" to="586bbee21cfb4917a36141e0935c876e">
+              <start-role id="umlar-447b3a16-09cf-4a65-b3bb-7640b4cb82cd" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-2adadbb1-e04f-497f-9ce1-4706a11d636b" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="eead4135b91e4342a5c8739e3e2c98f1" cid="REL010" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="02/07/2019 09:54:31" from="af55e3c8e8114f48a574a4c213741353" to="af55e3c8e8114f48a574a4c213741353">
+            <relation from="af55e3c8e8114f48a574a4c213741353" to="af55e3c8e8114f48a574a4c213741353">
+              <start-role id="umlar-595dda71-2085-4bea-83d0-5e48f0145959" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-b9357d1a-3f67-467e-a597-852643647ae8" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="b6bf423782f745e4a50fe2fca66bc45a" cid="REL011" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="02/07/2019 09:54:48" from="2b116e5a7fb34b28a4da55bfa9c558e6" to="2b116e5a7fb34b28a4da55bfa9c558e6">
+            <relation from="2b116e5a7fb34b28a4da55bfa9c558e6" to="2b116e5a7fb34b28a4da55bfa9c558e6">
+              <start-role id="umlar-d8dda6b3-b61c-457b-a1ba-a89fa9e5b16c" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-c7fca329-1ffe-483c-b218-df58f6153e3b" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+        </abstract-items>
+        <layer id="09a95f181a524dc7be50aaf89ec0ff68" name="Default" visible="true" enabled="true" locked="false">
+          <item id="96909684e3ff429192e89221c5b390f8" iid="5160e25004c94118ac553b55535da8e4" anchor="None" creation-date="02/06/2019 12:33:16" order-index="0" type="entity">
+            <layout ax="778" ay="79" awidth="344" aheight="662" x="778" y="79" width="344" height="662" />
+            <class />
+          </item>
+          <item id="af55e3c8e8114f48a574a4c213741353" iid="39907fcc304c48b5942560a4c2b8defa" anchor="None" creation-date="02/06/2019 13:17:19" order-index="1" type="entity">
+            <layout ax="1424" ay="932" awidth="344" aheight="662" x="1424" y="932" width="344" height="662" />
+            <class />
+          </item>
+          <item id="b58837d69443467b9c93ea4aea0b4640" iid="2aa32c6a06fd439ca8e88a6d02b9563e" anchor="None" creation-date="02/06/2019 13:32:34" order-index="2" type="entity">
+            <layout ax="132" ay="932" awidth="344" aheight="662" x="132" y="932" width="344" height="662" />
+            <class />
+          </item>
+          <item id="413a62bbfe6d4998b8591a6ff2fbfad5" iid="798ad1eb3ea74df18318e1a2b2cf88ec" anchor="None" creation-date="02/06/2019 13:46:09" order-index="3" type="entity">
+            <layout ax="1447" ay="2196" awidth="356" aheight="323" x="1447" y="2196" width="356" height="323" />
+            <class />
+          </item>
+          <item id="586bbee21cfb4917a36141e0935c876e" iid="1cd2bb6d121344f1a9a7d810be21d24a" anchor="None" creation-date="02/06/2019 13:55:11" order-index="4" type="entity">
+            <layout ax="789" ay="932" awidth="322" aheight="306" x="789" y="932" width="322" height="306" />
+            <class />
+          </item>
+          <item id="02531b30304b4fe898e7417b703c9d33" iid="97161b387b064ba0a0a9a11190059f76" anchor="None" creation-date="02/06/2019 16:07:59" order-index="5" type="entity">
+            <layout ax="789" ay="1742" awidth="356" aheight="306" x="789" y="1742" width="356" height="306" />
+            <class />
+          </item>
+          <item id="192f37e2f8824dac8673231ec23504c0" iid="f1850f4443194504a0b0c5d8957e62da" anchor="None" creation-date="02/06/2019 16:52:58" order-index="6" type="entity">
+            <layout ax="144" ay="1754" awidth="244" aheight="202" x="144" y="1754" width="244" height="202" />
+            <class />
+          </item>
+          <item id="049cf255012242d2be1121a30a09310f" iid="2e19ca1b2724470b94e8730fb6386762" anchor="None" creation-date="02/06/2019 16:57:34" order-index="7" type="entity">
+            <layout ax="-390" ay="1754" awidth="221" aheight="202" x="-390" y="1754" width="221" height="202" />
+            <class />
+          </item>
+          <item id="2b116e5a7fb34b28a4da55bfa9c558e6" iid="d3331b42d98043f1b8711341d2cabd67" anchor="None" creation-date="02/06/2019 17:08:25" order-index="8" type="entity">
+            <layout ax="1435" ay="1742" awidth="348" aheight="306" x="1435" y="1742" width="348" height="306" />
+            <class />
+          </item>
+          <item id="d21aaf8e99ed446cb5ce9f18acd464c4" iid="c0a927d4a7cd41569d8612a4baf0f3d2" creation-date="02/07/2019 09:51:39" order-index="9" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="950" y1="932" x2="950" y2="932" start-border-pos="0.125" end-border-pos="0.125" name-position="0,0">
+              <points>
+                <point x="950" y="932" />
+                <point x="950" y="741" />
+                <point x="950" y="882" />
+                <point x="950" y="932" />
+              </points>
+            </layout>
+            <relation from="586bbee21cfb4917a36141e0935c876e" from-iid="1cd2bb6d121344f1a9a7d810be21d24a" to="586bbee21cfb4917a36141e0935c876e" to-iid="1cd2bb6d121344f1a9a7d810be21d24a" />
+          </item>
+          <item id="768cf111ef654e4fa8646be616762fb2" iid="c67f613cf35449f5a81e64ec779c4b47" creation-date="02/07/2019 09:52:36" order-index="10" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="219,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="789" y1="958" x2="789" y2="958" start-border-pos="0.97875816993464" end-border-pos="0.97875816993464" name-position="0,0">
+              <points>
+                <point x="789" y="958" />
+                <point x="476" y="961" />
+                <point x="739" y="958" />
+                <point x="789" y="958" />
+              </points>
+            </layout>
+            <relation from="586bbee21cfb4917a36141e0935c876e" from-iid="1cd2bb6d121344f1a9a7d810be21d24a" to="586bbee21cfb4917a36141e0935c876e" to-iid="1cd2bb6d121344f1a9a7d810be21d24a" />
+          </item>
+          <item id="97d87017177a405aa3a03fabc9d44075" iid="d5004d23b2d04f20b1dc8c108366cf93" creation-date="02/07/2019 09:53:13" order-index="11" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1111" y1="953" x2="1111" y2="953" start-border-pos="0.267156862745098" end-border-pos="0.267156862745098" name-position="0,0">
+              <points>
+                <point x="1111" y="953" />
+                <point x="1421" y="957" />
+                <point x="1161" y="953" />
+                <point x="1111" y="953" />
+              </points>
+            </layout>
+            <relation from="586bbee21cfb4917a36141e0935c876e" from-iid="1cd2bb6d121344f1a9a7d810be21d24a" to="586bbee21cfb4917a36141e0935c876e" to-iid="1cd2bb6d121344f1a9a7d810be21d24a" />
+          </item>
+          <item id="e9eebce5adc9483984c7f3fc67faf06f" iid="87dc8d5974e64ca380e8ea3c05f62df6" creation-date="02/07/2019 09:53:38" order-index="12" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="789" y1="1760" x2="789" y2="1760" start-border-pos="0.985294117647059" end-border-pos="0.985294117647059" name-position="0,0">
+              <points>
+                <point x="789" y="1760" />
+                <point x="388" y="1758" />
+                <point x="739" y="1760" />
+                <point x="789" y="1760" />
+              </points>
+            </layout>
+            <relation from="02531b30304b4fe898e7417b703c9d33" from-iid="97161b387b064ba0a0a9a11190059f76" to="02531b30304b4fe898e7417b703c9d33" to-iid="97161b387b064ba0a0a9a11190059f76" />
+          </item>
+          <item id="8b6c1bf0fe2b4147a8b6b8eee330532a" iid="fb9a8ea8dac8473ca5afd8d4a7e6e420" creation-date="02/07/2019 09:53:54" order-index="13" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-169" y1="1776" x2="-169" y2="1776" start-border-pos="0.277227722772277" end-border-pos="0.277227722772277" name-position="0,0">
+              <points>
+                <point x="-169" y="1776" />
+                <point x="147" y="1773" />
+                <point x="-119" y="1776" />
+                <point x="-169" y="1776" />
+              </points>
+            </layout>
+            <relation from="049cf255012242d2be1121a30a09310f" from-iid="2e19ca1b2724470b94e8730fb6386762" to="049cf255012242d2be1121a30a09310f" to-iid="2e19ca1b2724470b94e8730fb6386762" />
+          </item>
+          <item id="0c925298a4fe41c3867c7f98e4504d10" iid="6c14b67991ab43d681838cbb1cbc86db" creation-date="02/07/2019 09:54:06" order-index="14" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="950" y1="1238" x2="950" y2="1238" start-border-pos="0.625" end-border-pos="0.625" name-position="0,0">
+              <points>
+                <point x="950" y="1238" />
+                <point x="950" y="1742" />
+                <point x="950" y="1288" />
+                <point x="950" y="1238" />
+              </points>
+            </layout>
+            <relation from="586bbee21cfb4917a36141e0935c876e" from-iid="1cd2bb6d121344f1a9a7d810be21d24a" to="586bbee21cfb4917a36141e0935c876e" to-iid="1cd2bb6d121344f1a9a7d810be21d24a" />
+          </item>
+          <item id="eead4135b91e4342a5c8739e3e2c98f1" iid="019b5d99cc68418b9580ae6619c9e2cc" creation-date="02/07/2019 09:54:31" order-index="15" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1596" y1="1594" x2="1596" y2="1594" start-border-pos="0.625" end-border-pos="0.625" name-position="0,0">
+              <points>
+                <point x="1596" y="1594" />
+                <point x="1596" y="1742" />
+                <point x="1596" y="1644" />
+                <point x="1596" y="1594" />
+              </points>
+            </layout>
+            <relation from="af55e3c8e8114f48a574a4c213741353" from-iid="39907fcc304c48b5942560a4c2b8defa" to="af55e3c8e8114f48a574a4c213741353" to-iid="39907fcc304c48b5942560a4c2b8defa" />
+          </item>
+          <item id="b6bf423782f745e4a50fe2fca66bc45a" iid="955ab5f100064418aac66a27b411015a" creation-date="02/07/2019 09:54:48" order-index="16" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1609" y1="2048" x2="1609" y2="2048" start-border-pos="0.625" end-border-pos="0.625" name-position="0,0">
+              <points>
+                <point x="1609" y="2048" />
+                <point x="1609" y="2196" />
+                <point x="1609" y="2098" />
+                <point x="1609" y="2048" />
+              </points>
+            </layout>
+            <relation from="2b116e5a7fb34b28a4da55bfa9c558e6" from-iid="d3331b42d98043f1b8711341d2cabd67" to="2b116e5a7fb34b28a4da55bfa9c558e6" to-iid="d3331b42d98043f1b8711341d2cabd67" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
